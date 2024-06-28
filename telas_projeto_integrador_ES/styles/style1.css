@@ -382,6 +382,13 @@ nav ul li a {
     flex-wrap: wrap;
 }
 
+.main-index8 ul div{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: end; 
+}
 
-
-
+.main-index8 ul div a{
+    text-align: center;
+}
