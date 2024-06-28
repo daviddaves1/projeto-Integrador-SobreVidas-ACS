@@ -316,7 +316,7 @@ nav ul li a {
 
 .select-pacientes li:hover{
     transform: scale(1.02);
-    transition-duration: 0.09s;
+    transition-duration: 0.15s;
 }
 
 .h2-informs-gerais{
