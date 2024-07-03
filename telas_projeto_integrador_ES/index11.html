@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monitoramento de pacientes 2</title>
+  <link rel="stylesheet" href="styles/style1.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="imagens/file.png" alt="logo-acs">
+            <a href="menu.html"><button class="voltar">Voltar</button></a>
+        </div>
+        <img src="imagens/file2.png" alt="logo-acs">
+    </header>
+
+
+    <main class="area-cadastro">
+        <h2>Monitoramento do paciente</h2>
+        <div class="campo">
+                <div class="campo">
+                    <label for="nome"><strong>Nome:</strong></label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="rua"><strong>O paciente está em situação de rua?:</strong></label>
+                    <select id="rua" name="rua" required>
+                        <option value="rua">Selecione...</option>
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="deficiência"><strong>O paciente é portador de deficiência física?:</strong></label>
+                    <select id="deficiência" name="deficiência" required>
+                        <option value="deficiência">Selecione...</option>
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="consulta"><strong>O paciente foi encaminhado(a) para consulta?:</strong></label>
+                    <select id="consulta" name="consulta" required>
+                        <option value="consulta">Selecione...</option>
+                        <option>Sim</option>
+                        <option>Não</option>
+                        <option>Já realizou a consulta</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="retorno"><strong>Deverá retornar para uma novas consultas?:</strong></label>
+                    <select id="retorno" name="retorno" required>
+                        <option value="retorno">Selecione...</option>
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <strong>Data da consulta agendada:</strong>
+                    <input type="date" name="data-nasc" id="data-nasc">
+                </div>
+                <div class="campo">
+                    <label for="consulta"><strong>O paciente compareceu a consulta?:</strong></label>
+                    <select id="consulta" name="consulta" required>
+                        <option value="consulta">Selecione...</option>
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="risco"><strong>Classificação de risco do paciente:</strong></label>
+                    <select id="risco" name="risco" required>
+                        <option value="risco">Selecione...</option>
+                        <option>Não urgente</option>
+                        <option>Pouco urgente</option>
+                        <option>Urgente</option>
+                        <option>Muito urgente</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="cirurgia"><strong>Realizou cirurgias?:</strong></label>
+                    <select id="cirurgia" name="cirurgia" required>
+                        <option value="cirurgia">Selecione...</option>
+                        <option>Sim</option>
+                        <option>Não</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="quantidade"><strong>Quantidade de cirurgias realizadas:</strong></label>
+                    <select id="quantidade" name="quantidade" required>
+                        <option value="quantidade">Selecione...</option>
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <strong>Infomações adicionais:</strong>
+                    <input type="informações" name="informações" id="informações">
+                </div>
+
+                <div class="finalizar-paciente">
+                    <button type="submit"><a href="#">Cancelar</a></button>
+                    <button type="button"><a href="#">Próximo</a></button>
+                </div>
+        </div>
+    </main>
+
+    <nav>
+        <div class="barra">
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Pacientes</a></li>
+                <li><a href="#">Perfil</a></li>
+            </ul>
+        </div>
+      </nav>
+    
+      <footer>
+      </footer>
+    </body>
+    </html>
+</body>
