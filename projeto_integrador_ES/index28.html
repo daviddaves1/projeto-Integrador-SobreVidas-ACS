@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro do Paciente</title>
+  <link rel="stylesheet" href="styles/style1.css">
+  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <div>
+      <img src="imagens/file.png" alt="logo-acs">
+      <a href="index19.html"><button class="voltar">Voltar</button></a>
+    </div>
+    <img src="imagens/file2.png" alt="logo-acs">
+  </header>
+
+  <div class="img-centro"><img src="imagens/perfil.png" alt="foto de perfil"></div>
+
+  <main class="area-cadastro">
+    <h2>Altere as informações necessárias</h2>
+    <div class="container">
+      <div class="coluna">
+        <div class="campo">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="campo">
+          <label for="sobrenome">Sobrenome:</label>
+          <input type="text" id="sobrenome" name="sobrenome">
+        </div>
+        <div class="campo">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <div class="campo">
+          <label for="cpf">CPF:</label>
+          <input type="number" id="cpf" name="cpf">
+        </div>
+        <div class="campo">
+          <label for="data-nasc">Data de nascimento:</label>
+          <input type="date" id="data-nasc" name="data-nasc">
+        </div>
+        <div class="campo">
+          <label for="phone-number">Telefone celular:</label>
+          <input type="number" id="phone-number" name="phone-number">
+        </div>
+        <div class="campo">
+          <label for="genero">Gênero:</label>
+          <select id="genero" name="genero" required>
+            <option value="genero">Selecione...</option>
+            <option>Masculino</option>
+            <option>Feminino</option>
+            <option>Não binário</option>
+            <option>Outro</option>
+            <option>Prefiro não dizer</option>
+          </select>
+        </div>
+      </div>
+      <div class="coluna">
+        <div class="campo">
+          <label for="input-mae">Nome da mãe:</label>
+          <input type="text" id="input-mae" name="input-mae">
+        </div>
+        <div class="campo">
+          <label for="input-idade">Idade:</label>
+          <input type="number" id="input-idade" name="input-idade">
+        </div>
+        <div class="campo">
+          <label for="input-uf">UF:</label>
+          <select id="input-uf" name="input-uf" required>
+            <option value="input-uf">Selecione...</option>
+            <option>AC</option>
+            <option>AL</option>
+            <option>AM</option>
+            <option>AP</option>
+            <option>BA</option>
+            <option>CE</option>
+            <option>DF</option>
+            <option>ES</option>
+            <option>GO</option>
+            <option>MA</option>
+            <option>MG</option>
+            <option>MS</option>
+            <option>MT</option>
+            <option>PB</option>
+            <option>PE</option>
+            <option>PI</option>
+            <option>PR</option>
+            <option>RJ</option>
+            <option>RN</option>
+            <option>RO</option>
+            <option>RR</option>
+            <option>RS</option>
+            <option>SC</option>
+            <option>SE</option>
+            <option>SP</option>
+            <option>TO</option>
+          </select>
+        </div>
+        <div class="campo">
+          <label for="input-municipio">Município:</label>
+          <input type="text" id="input-municipio" name="input-municipio">
+        </div>
+        <div class="campo">
+          <label for="input-city">Cidade:</label>
+          <input type="text" id="input-city" name="input-city">
+        </div>
+        <div class="campo">
+          <label for="input-cep">CEP:</label>
+          <input type="number" id="input-cep" name="input-cep">
+        </div>
+        <div class="campo">
+          <label for="input-bairro">Bairro:</label>
+          <input type="text" id="input-bairro" name="input-bairro">
+        </div>
+        <div class="campo">
+          <label for="input-numero">Número:</label>
+          <input type="number" id="input-numero" name="input-numero">
+        </div>
+        <div class="campo">
+          <label for="input-endereco">Endereço:</label>
+          <input type="text" id="input-endereco" name="input-endereco">
+        </div>
+        <div class="campo">
+          <label for="input-microarea">Microárea:</label>
+          <input type="text" id="input-microarea" name="input-microarea">
+        </div>
+      </div>
+    </div>
+
+    <div class="finalizar-paciente">
+      <button type="submit"><a href="#">Cancelar</a></button>
+      <button type="button"><a href="index27.html">Salvar alterações</a></button>
+    </div>
+  </main>
+
+<nav>
+    <div class="barra">
+        <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Pacientes</a></li>
+            <li><a href="#">Perfil</a></li>
+        </ul>
+    </div>
+</nav>
+  
+</body>
+</html>
