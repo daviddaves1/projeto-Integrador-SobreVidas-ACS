@@ -16,7 +16,6 @@ O sistema é desenvolvido utilizando Golang, HTML, CSS e integra um banco de dad
 - 🗂️[Requisitos](#requisitos)
 - 🌎[Tecnologias Utilizadas](#tecnologias-utilizadas)
 - 👨‍💻[Como rodar](#como-rodar)
-- [Estrutura do Projeto](#estrutura-do-projeto)
 
 
 ## 📖Descrição do Projeto
