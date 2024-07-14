@@ -31,7 +31,7 @@ O grupo responsável pela criação e implementação do projeto armazenado ness
 
 ## 📽️Vídeos
 - Pitch sobre caracteristicas do sistema:https://drive.google.com/file/d/1JX6d8mtSx27VrCPaiv5yYZB2FHLVOOFL/view?usp=sharing
-- Vídeo sobre os detalhes do sistema: https://drive.google.com/file/d/13odONVSO9USzEqsLaNercqszneWV4bDr/view?usp=sharing
+- Vídeo sobre os detalhes do sistema: https://drive.google.com/file/d/13odONVSO9USzEqsLaNercqszneWV4bDr/view?usp=drive_link
 
 
 ### 💻Funcionalidades
