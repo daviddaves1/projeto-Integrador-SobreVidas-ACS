@@ -31,8 +31,8 @@ O grupo responsável pela criação e implementação do projeto armazenado ness
 - [Rodrigo Luiz Ferreira Ramos](https://github.com/rodrigoluizf)
 
 ## 📽️Vídeos
-- Pitch sobre caracteristicas do sistema:
-- Vìdeo sobre os detalhes so sistema:
+- Pitch sobre caracteristicas do sistema:https://drive.google.com/file/d/1JX6d8mtSx27VrCPaiv5yYZB2FHLVOOFL/view?usp=sharing
+- Vídeo sobre os detalhes do sistema:
 
 
 ### 💻Funcionalidades
