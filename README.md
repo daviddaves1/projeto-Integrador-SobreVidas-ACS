@@ -87,7 +87,7 @@ As tecnologias utilizadas para a criação e execução desse projeto estão a s
 3. Clicar em General > Escreva o nome do seu servidor de banco de dados
 4. Clicar em Connection > Host name/address: escreva localhost | Username: postgres | Senha: postgres
 5. Criar um banco de dados com o nome do seu projeto
-6. Dentro do banco de dados procure > Pastas. Caso pastas criadas, deleteas
+6. Dentro do banco de dados procure > Pastas. Caso pastas criadas, delete-as
 
 ### VScode
 
